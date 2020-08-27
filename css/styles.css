@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  background-color: #efefef;
+  padding: 20px;
+  color: #fff;
+  border-radius: 20px;
+}
+form input::placeholder {
+  width: 15em;
+  margin: 3px;
+  height: 2em;
+  color: #6c757d;
+}
+form .btn {
+  margin: 2em 1em;
+  width: 60%;
+  height: 40px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3em;
+}
+.fas {
+  font-size: 2.5em;
+}
+.fa-plane {
+  color: #2a96f3;
+}
+.fa-wallet {
+  color: #a96d65;
+}
+.fa-money-bill-wave-alt{
+  color: #42a3b8;
+}
+.container-data {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+

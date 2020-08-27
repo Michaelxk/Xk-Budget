@@ -6,7 +6,7 @@
 h1 {
   text-align: center;
 }
-.container {
+.main {
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -14,9 +14,7 @@ h1 {
   justify-content: center;
 }
 form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
   width: 90%;
   background-color: #efefef;
   padding: 20px;
@@ -44,10 +42,14 @@ form .btn {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  margin-top: 3em;
+  margin-top: 1em;
+
 }
 .fas {
-  font-size: 2.5em;
+  font-size: 2.5em;  
+  border-radius: 50%;
+  padding: 40px;
+
 }
 .fa-plane {
   color: #2a96f3;
@@ -58,9 +60,8 @@ form .btn {
 .fa-money-bill-wave-alt{
   color: #42a3b8;
 }
+
 .container-data {
-  width: 100%;
   display: flex;
   justify-content: space-around;
 }
-

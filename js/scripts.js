@@ -30,13 +30,13 @@ function UI(budget,balance,destiny) {
   let dataPrint = document.createElement("div")
   dataPrint.innerHTML = `
     <div class="container-data">
-      <div class="item1">
+      <div class="col s4">
         <h6>${destiny}</h6>  
       </div>
-      <div class="item2">
+      <div class="col s4">
         <h6>${budget}</h6>   
       </div>
-      <div class="item3">
+      <div class="col s4">
         <h6>${balance}</h6>   
       </div>
     </div>

@@ -3,9 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-h1 {
+.navbar {
+ margin: -2.3em 0 7em; 
+}
+h2 {
   text-align: center;
 }
+
 .main {
   width: 100vw;
   display: flex;
@@ -64,4 +68,9 @@ form .btn {
 .container-data {
   display: flex;
   justify-content: space-around;
+  margin-top: -1em;
+}
+
+.container-data h6 {
+  text-align: center;
 }
